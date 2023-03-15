@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Current File with shared folder path",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "D:\\share\\OvTr"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Current File with not shared folder path",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "C:\\Windows\\System32"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
